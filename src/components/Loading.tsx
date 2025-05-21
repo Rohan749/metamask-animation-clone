@@ -11,7 +11,7 @@ const Loading = () => {
 
   return (
     <>
-      <div className="relative h-screen w-full overflow-hidden loading_screen_container">
+      <div className="relative h-screen w-full overflow-hidden loading_screen_container lg:block hidden">
         <div className="fixed slide_1 bottom-0 left-0 h-[70vh] w-[40vw] loaderBg z-[9999999999999] overflow-hidden"></div>
         <div className="fixed slide_2 top-0 left-1/2 h-[20vw] -translate-1/2 w-[20vw] loaderBg z-[9999999999999] overflow-hidden rotate-45"></div>
         <div className="fixed slide_3 right-0 translate-x-1/2 top-0 h-[100vh] w-[60vw] loaderBg z-[9999999999999] overflow-hidden rotate-45"></div>

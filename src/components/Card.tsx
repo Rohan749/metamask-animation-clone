@@ -26,18 +26,18 @@ const Card = () => {
   return (
     <>
       <section className="card_section top-[90vh]  absolute left-0 w-full remove_scrollbar min-h-[100vh] flex items-center justify-center overflow-x-hidden">
-        <div className="grid grid-cols-3 gap-3  py-6 px-2 h-full remove_scrollbar overflow-visible pt-20 items-center max-w-5xl">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3  py-6 px-2 h-full remove_scrollbar overflow-visible pt-20 items-center max-w-5xl">
           <div className="slide_contents flex flex-col gap-3 max-h-[35rem] h-[80vh] ">
             <BuySellCard />
           </div>
-          <Tilt className=" z-[999999999] relative">
-            <div className="card_border rounded-xl max-h-[35rem] h-[80vh]">
-              <div className="absolute top-1/3 left-0 -translate-y-1/2 title z-[999999] flex flex-col items-center  h-2 text-center w-full text-7xl leading-10 card_title">
+          <Tilt className=" z-[999999999] relative flex justify-center">
+            <div className="card_border rounded-xl max-h-[35rem] h-[80vh] lg:max-w-[20rem] flex justify-center">
+              <div className="absolute top-1/3 left-0 -translate-y-1/2 title z-[999999] flex flex-col items-center  h-2 text-center w-full text-7xl leading-10 card_title ">
                 THE <br />
                 EVERYTHING <br />
                 WALLET
               </div>
-              <div className="card_component px-2.5 py-3.5 rounded-xl overflow-x-hidden bg-white text-xs max-h-[35rem] h-[80vh] shadow-xl">
+              <div className="card_component px-2.5 py-3.5 rounded-xl overflow-x-hidden bg-white text-xs max-h-[35rem] h-[80vh] shadow-xl ">
                 <div className="flex items-center justify-between gap-4">
                   <div className="px-4 py-1.5 rounded-full flex items-center gap-3">
                     <CgProfile />
